@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration_form"
+    app:startDestination="@id/stepOneRegistrationFragment">
+
+    <fragment
+        android:id="@+id/stepOneRegistrationFragment"
+        android:name="com.fyp.inab.view.authentication.form.StepOneRegistrationFragment"
+        android:label="fragment_step_one_registration"
+        tools:layout="@layout/fragment_step_one_registration" >
+        <action
+            android:id="@+id/action_stepOneRegistrationFragment_to_stepTwoRegistrationFragment"
+            app:destination="@id/stepTwoRegistrationFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepTwoRegistrationFragment"
+        android:name="com.fyp.inab.view.authentication.form.StepTwoRegistrationFragment"
+        android:label="fragment_step_two_registration"
+        tools:layout="@layout/fragment_step_two_registration" />
+</navigation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/champagne"
+    tools:context=".view.about.AboutInabActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/fira_sans_medium"
+        android:text="Integrated NILAM and Bochord"
+        android:textAlignment="center"
+        android:textColor="@color/xanadu"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/LoginCardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:fontFamily="@font/fira_sans"
+                android:textSize="16dp"
+                android:textColor="@color/xanadu"
+                android:text="Integrated Nilam and Bochord (i-NAB) is a mobile application for Android user that is used for primary and secondary school students to digitalise the NILAM system which is currently being used in Malaysia as a manual system. This application is expected to help teachers in managing the NILAM system in a much easier and modern way. It is also hoped that this application could increase interest in reading among all the students in Malaysia.\n\n  However, there are some problems being faced as students tends to lose their readability as they lack knowledge in book titles that can offer stories which suit their interest. Meanwhile, the teachers are facing huge problem to manage the NILAM system as manual whereas they are required to bring all their student’s books to home for marking progress, before sending the books back to the respective student.\n\n  INAB was designed to provide easier marking and updating progress through online management. Students can also search and borrow books from the school’s library that suit to their interest.
+"/>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_classroom"
+    app:startDestination="@id/classroomListFragment">
+
+    <fragment
+        android:id="@+id/classroomListFragment"
+        android:name="com.fyp.inab.view.teacher.classroom.ClassroomListFragment"
+        android:label="fragment_classroom_list"
+        tools:layout="@layout/fragment_classroom_list" >
+        <action
+            android:id="@+id/action_classroomListFragment_to_classroomDetailsFragment"
+            app:destination="@id/classroomDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/classroomDetailsFragment"
+        android:name="com.fyp.inab.view.teacher.classroom.ClassroomDetailsFragment"
+        android:label="fragment_classroom_details"
+        tools:layout="@layout/fragment_classroom_details" >
+        <action
+            android:id="@+id/action_classroomDetailsFragment_to_classroomStudentProgressFragment"
+            app:destination="@id/classroomStudentProgressFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_classroomDetailsFragment_to_classroomListFragment"
+            app:destination="@id/classroomListFragment"
+            app:popUpTo="@id/classroomListFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/classroomStudentProgressFragment"
+        android:name="com.fyp.inab.view.teacher.classroom.ClassroomStudentProgressFragment"
+        android:label="fragment_classroom_student_progress"
+        tools:layout="@layout/fragment_classroom_student_progress" >
+        <action
+            android:id="@+id/action_classroomStudentProgressFragment_to_classroomDetailsFragment"
+            app:destination="@id/classroomDetailsFragment" />
+    </fragment>
+</navigation>

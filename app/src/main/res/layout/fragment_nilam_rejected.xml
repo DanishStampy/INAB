@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.student.nilam.history.NilamRejectedFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_nilam_history_rejected"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_error_rejected_nilam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/fira_sans_medium"
+        android:visibility="gone"
+        android:text="No rejected NILAM record yet"
+        android:textColor="@color/xanadu"
+        app:layout_constraintEnd_toEndOf="@+id/rc_nilam_history_rejected"
+        app:layout_constraintStart_toStartOf="@+id/rc_nilam_history_rejected"
+        app:layout_constraintTop_toTopOf="@+id/rc_nilam_history_rejected" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

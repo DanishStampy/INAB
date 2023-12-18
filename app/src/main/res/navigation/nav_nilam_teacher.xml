@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_nilam_teacer"
+    app:startDestination="@id/teacherNilamNotificationFragment">
+
+    <fragment
+        android:id="@+id/teacherNilamNotificationFragment"
+        android:name="com.fyp.inab.view.teacher.nilam.TeacherNilamNotificationFragment"
+        android:label="fragment_teacher_nilam_notification"
+        tools:layout="@layout/fragment_teacher_nilam_notification" >
+        <action
+            android:id="@+id/action_teacherNilamNotificationFragment_to_teacherNilamDetailsFragment"
+            app:destination="@id/teacherNilamDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/teacherNilamDetailsFragment"
+        android:name="com.fyp.inab.view.teacher.nilam.TeacherNilamDetailsFragment"
+        android:label="fragment_teacher_nilam_details"
+        tools:layout="@layout/fragment_teacher_nilam_details" >
+        <action
+            android:id="@+id/action_teacherNilamDetailsFragment_to_teacherNilamNotificationFragment"
+            app:destination="@id/teacherNilamNotificationFragment" />
+    </fragment>
+</navigation>

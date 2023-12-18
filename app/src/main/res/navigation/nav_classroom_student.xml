@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_classroom_student"
+    app:startDestination="@id/studentClassroomListFragment">
+
+    <fragment
+        android:id="@+id/studentClassroomListFragment"
+        android:name="com.fyp.inab.view.student.classroom.StudentClassroomListFragment"
+        android:label="fragment_student_classroom_list"
+        tools:layout="@layout/fragment_student_classroom_list" >
+        <action
+            android:id="@+id/action_studentClassroomListFragment_to_studentClassroomDetailsFragment"
+            app:destination="@id/studentClassroomDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentClassroomDetailsFragment"
+        android:name="com.fyp.inab.view.student.classroom.StudentClassroomDetailsFragment"
+        android:label="fragment_student_classroom_details"
+        tools:layout="@layout/fragment_student_classroom_details" >
+        <action
+            android:id="@+id/action_studentClassroomDetailsFragment_to_studentClassroomListFragment"
+            app:destination="@id/studentClassroomListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>

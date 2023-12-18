@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_books"
+    app:startDestination="@id/libraryHomeFragment">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.fyp.inab.view.student.library.allbooks.BookListFragment"
+        android:label="fragment_book_list"
+        tools:layout="@layout/fragment_book_list" >
+        <action
+            android:id="@+id/action_bookListFragment_to_bookDetailsFragment"
+            app:destination="@id/bookDetailsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookDetailsFragment"
+        android:name="com.fyp.inab.view.student.library.allbooks.BookDetailsFragment"
+        android:label="fragment_book_details"
+        tools:layout="@layout/fragment_book_details" >
+        <action
+            android:id="@+id/action_bookDetailsFragment_to_bookListFragment"
+            app:destination="@id/bookListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookBorrowedListFragment"
+        android:name="com.fyp.inab.view.student.library.borrowed.BookBorrowedListFragment"
+        android:label="fragment_book_borrowed_list"
+        tools:layout="@layout/fragment_book_borrowed_list" >
+        <action
+            android:id="@+id/action_bookBorrowedListFragment_self"
+            app:destination="@id/bookBorrowedListFragment" />
+        <action
+            android:id="@+id/action_bookBorrowedListFragment_to_libraryHomeFragment"
+            app:destination="@id/libraryHomeFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/libraryHomeFragment"
+        android:name="com.fyp.inab.view.student.library.LibraryHomeFragment"
+        android:label="fragment_library_home"
+        tools:layout="@layout/fragment_library_home" >
+        <action
+            android:id="@+id/action_libraryHomeFragment_to_bookListFragment"
+            app:destination="@id/bookListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_libraryHomeFragment_to_bookBorrowedListFragment"
+            app:destination="@id/bookBorrowedListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>

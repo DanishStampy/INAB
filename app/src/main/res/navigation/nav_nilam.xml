@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_nilam"
+    app:startDestination="@id/nilamProgressFragment">
+
+    <fragment
+        android:id="@+id/nilamProgressFragment"
+        android:name="com.fyp.inab.view.student.nilam.NilamProgressFragment"
+        android:label="fragment_nilam_progress"
+        tools:layout="@layout/fragment_nilam_progress" >
+        <action
+            android:id="@+id/action_nilamProgressFragment_to_nilamBarcodeScannerFragment"
+            app:destination="@id/nilamBarcodeScannerFragment" />
+        <action
+            android:id="@+id/action_nilamProgressFragment_to_nilamCreateManualFragment"
+            app:destination="@id/nilamCreateManualFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/nilamBarcodeScannerFragment"
+        android:name="com.fyp.inab.view.student.nilam.barcode.NilamBarcodeScannerFragment"
+        android:label="fragment_nilam_barcode_scanner"
+        tools:layout="@layout/fragment_nilam_barcode_scanner" >
+        <action
+            android:id="@+id/action_nilamBarcodeScannerFragment_to_nilamSummaryFragment"
+            app:destination="@id/nilamSummaryFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/nilamSummaryFragment"
+        android:name="com.fyp.inab.view.student.nilam.barcode.NilamSummaryFragment"
+        android:label="fragment_nilam_summary"
+        tools:layout="@layout/fragment_nilam_summary" >
+        <action
+            android:id="@+id/action_nilamSummaryFragment_to_nilamProgressFragment"
+            app:destination="@id/nilamProgressFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/nilamCreateManualFragment"
+        android:name="com.fyp.inab.view.student.nilam.NilamCreateManualFragment"
+        android:label="fragment_nilam_create_manual"
+        tools:layout="@layout/fragment_nilam_create_manual" >
+        <action
+            android:id="@+id/action_nilamCreateManualFragment_to_nilamProgressFragment"
+            app:destination="@id/nilamProgressFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>

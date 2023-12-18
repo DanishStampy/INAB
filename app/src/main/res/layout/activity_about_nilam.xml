@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/champagne"
+    tools:context=".view.about.AboutNilamActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/nilam_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/fira_sans_medium"
+        android:text="NILAM Programme and Award List"
+        android:textAlignment="center"
+        android:textColor="@color/xanadu"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/LoginCardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:fontFamily="@font/fira_sans_medium"
+                    android:text="1. What is NILAM?"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/gunmetal"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans"
+                    android:textSize="16sp"
+                    android:textColor="@color/xanadu"
+                    android:text="Reading is a very good habit that one needs to develop in life. Good books can inform, enlighten, and lead us in the right direction. According to Briggs (1987), a positive reading attitude is a motivational stimulus that encourages and assists learning, whereas a negative attitude will result in the opposite.\n\n  Malaysians on average read 15 books a year, just slightly over one book a month. A 2014 interim report on the reading habit revealed that seven years earlier, Malaysians read only two books a year. The exact figure could be higher since reading materials are widely available in traditional and digital formats. E-books and e-papers make reading a breeze on smartphones, tablets and portable e-readers.\n\n  By taking into account all of those issues and the importance of reading habit among Malaysian, a programme named as NILAM (Nadi Ilmu Amalan Membaca) has been introduced by the Malaysian government to be implement in both primary and secondary school in order to cultivate reading culture in school. NILAM programme plays an important role to encourage students in reading.\n\nThe outline of this program is simple enough, where each pupil is asked to:\n\n
+1.    Record the books they had read in their Record Book NILAM (can be found in any public school’s book store)\n
+2.    Get their teachers to check their records\n
+3.    Whoever reads the most books gets a reward"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:fontFamily="@font/fira_sans_medium"
+                    android:text="2. Award List"
+                    android:textSize="18dp"
+                    android:layout_marginVertical="8dp"
+                    android:textColor="@color/gunmetal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans"
+                    android:textSize="16sp"
+                    android:textColor="@color/xanadu"
+                    android:text="Number of books to be read and documented in order to receive the NILAM award:\n"/>
+
+                <TextView
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Primary School:"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:textSize="18sp"
+                    android:textColor="@color/gunmetal"
+                    />
+
+                <ImageView
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rendah"/>
+
+                <TextView
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Secondary School:"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:textSize="18sp"
+                    android:textColor="@color/gunmetal"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/menengah"/>
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

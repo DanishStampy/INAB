@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fyp.inab">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LibraryNILAM">
+        <activity
+            android:name=".view.about.AboutInabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.about.AboutNilamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.about.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.authentication.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.teacher.TeacherNilamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.student.StudentNilamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.student.StudentLibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.student.StudentClassroomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.teacher.TeacherClassroomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.teacher.TeacherProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.student.StudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.authentication.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.teacher.TeacherHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.student.StudentHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.authentication.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.authentication.LoginActivity"
+            android:exported="true" /> <!-- Scanner Activity -->
+        <activity
+            android:name=".view.student.nilam.barcode.NilamCaptureAct"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.fyp.inab.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

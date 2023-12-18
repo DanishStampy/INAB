@@ -1,0 +1,135 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1955" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_about.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_about_inab.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_about_nilam.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_home_student.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_home_teacher.xml" value="0.2" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_register.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_splash_screen.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/activity_student_library.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/classroom_item.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/error_message.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_about_main.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_about_nilam.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_book_borrowed_list.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_book_current_borrowed.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_book_details.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_book_history_request.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_book_list.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_classroom_details.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_classroom_list.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_classroom_student_progress.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_library_home.xml" value="0.1" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_all.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_approved.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_barcode_scanner.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_create_manual.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_progress.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_nilam_rejected.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_profile_details.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_student_classroom_details.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_student_classroom_list.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_teacher_nilam_details.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/fragment_teacher_nilam_notification.xml" value="0.11842105263157894" />
+        <entry key="..\:/Programming/androidProject/INAB/app/src/main/res/layout/student_item.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/add.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/barcode.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/drawable_anydpi_v26.xml" value="0.196" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.363" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.3605" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_error_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_file_open_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_phone_forwarded_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_qr_code_2_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_audit_library_inventory.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_books_detail_from_bar_code.xml" value="0.21" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_borrow.xml" value="0.1" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_borrow_book_details.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_borrow_report.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_borrower_request.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_evaluation_report.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_forgot_password.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_home2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_home_student.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_home_teacher.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_manage_borrow_request.xml" value="0.11376858435681965" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_nilam.xml" value="0.16" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_nilam2.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_nilam_summary.xml" value="0.33" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_scan_bar_code.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_scanner.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_search_book.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_student_classroom.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_student_library.xml" value="0.22861842105263158" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_student_nilam.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_student_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_teacher_classroom.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_teacher_nilam.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_teacher_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/activity_temp.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/add_classroom_dialog.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/book_item.xml" value="0.22861842105263158" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/classroom_item.xml" value="0.33" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/dropdown_item.xml" value="0.11376858435681965" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_book_borrowed_list.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_book_current_borrowed.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_book_details.xml" value="0.2" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_book_history_request.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_book_list.xml" value="0.22861842105263158" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_classroom_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_classroom_list.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_classroom_student_progress.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_edit_process.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_library_home.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_all.xml" value="0.10035552682611507" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_approved.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_barcode_scanner.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_create_manual.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_manual_last_step.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_manual_step_one.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_manual_step_two.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_manually_add.xml" value="0.22861842105263158" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_progress.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_rejected.xml" value="0.10035552682611507" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_nilam_summary.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_profile_details.xml" value="0.33" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_reset_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_step_one_registration.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_step_two_registration.xml" value="0.2" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_student_classroom_details.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_student_classroom_list.xml" value="0.22" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_student_edit_process.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_student_profile_details.xml" value="0.33" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_teacher_edit_process.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_teacher_nilam_details.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_teacher_nilam_notification.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/fragment_teacher_profile_details.xml" value="0.35260416666666666" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/loading_dialog.xml" value="0.23157894736842105" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/nilam_history_item.xml" value="0.33" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/notification_item.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/request_item.xml" value="0.5" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/layout/student_item.xml" value="0.25" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3675" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196" />
+        <entry key="..\:/Programming/androidProject/LibraryNILAM/app/src/main/res/xml/file_paths.xml" value="0.11842105263157894" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_nilam_manual"
+    app:startDestination="@id/nilamManualStepOneFragment2">
+
+    <fragment
+        android:id="@+id/nilamManualStepOneFragment2"
+        android:name="com.fyp.inab.view.student.nilam.manual.NilamManualStepOneFragment"
+        android:label="fragment_nilam_manual_step_one"
+        tools:layout="@layout/fragment_nilam_manual_step_one" >
+        <action
+            android:id="@+id/action_nilamManualStepOneFragment2_to_nilamManualStepTwoFragment2"
+            app:destination="@id/nilamManualStepTwoFragment2"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/nilamManualStepTwoFragment2"
+        android:name="com.fyp.inab.view.student.nilam.manual.NilamManualStepTwoFragment"
+        android:label="fragment_nilam_manual_step_two"
+        tools:layout="@layout/fragment_nilam_manual_step_two" >
+        <action
+            android:id="@+id/action_nilamManualStepTwoFragment2_to_nilamManualStepOneFragment2"
+            app:destination="@id/nilamManualStepOneFragment2" />
+        <action
+            android:id="@+id/action_nilamManualStepTwoFragment2_to_nilamManualLastStepFragment"
+            app:destination="@id/nilamManualLastStepFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/nilamManualLastStepFragment"
+        android:name="com.fyp.inab.view.student.nilam.manual.NilamManualLastStepFragment"
+        android:label="fragment_nilam_manual_last_step"
+        tools:layout="@layout/fragment_nilam_manual_last_step" >
+        <action
+            android:id="@+id/action_nilamManualLastStepFragment_to_nilamManualStepTwoFragment2"
+            app:destination="@id/nilamManualStepTwoFragment2" />
+    </fragment>
+</navigation>

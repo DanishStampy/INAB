@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.student.nilam.manual.NilamManualStepTwoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/register_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_register">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputLayout8"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Language"
+                app:boxCornerRadiusBottomEnd="8sp"
+                app:boxCornerRadiusBottomStart="8sp"
+                app:boxCornerRadiusTopEnd="8sp"
+                app:boxCornerRadiusTopStart="8sp"
+                app:helperText="Select reading language"
+                app:helperTextEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInputLayout5"
+                android:textColorHint="@color/gunmetal">
+
+                <AutoCompleteTextView
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:textColor="@color/gunmetal"
+                    android:id="@+id/dropdown_lang_nilam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtInputLayout81"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Reading Material"
+                android:layout_marginTop="16dp"
+                app:boxCornerRadiusBottomEnd="8sp"
+                app:boxCornerRadiusBottomStart="8sp"
+                app:boxCornerRadiusTopEnd="8sp"
+                app:boxCornerRadiusTopStart="8sp"
+                app:helperText="Select reading material"
+                app:helperTextEnabled="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInputLayout5"
+                android:textColorHint="@color/gunmetal">
+
+                <AutoCompleteTextView
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:textColor="@color/gunmetal"
+                    android:id="@+id/dropdown_material"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInputLayout4">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:padding="12dp"
+                    android:text="Fiction or not"
+                    android:textColor="@color/gunmetal"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/radioFiction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:text="Fiction" />
+
+                <RadioButton
+                    android:id="@+id/radioNonFiction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:text="Non-Fiction"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Summary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_nilam_summary"
+                    android:layout_width="match_parent"
+                    android:inputType="textMultiLine"
+                    android:fontFamily="@font/fira_sans_medium"
+                    android:textColor="@color/gunmetal"
+                    android:gravity="top"
+                    android:lines="5"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_layout">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_next_last_step_nilam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/fira_sans_medium"
+                android:text="Next"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
